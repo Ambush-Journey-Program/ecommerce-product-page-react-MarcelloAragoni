@@ -11,6 +11,7 @@ type ButtonProps = {
   children?: string;
   icon?: string;
   addcart?: string;
+  props?: JSX.IntrinsicElements['button'];
 };
 
 const BUTTON_ICONS: any = {
@@ -22,11 +23,11 @@ const BUTTON_ICONS: any = {
   delete: <DeleteIcon />
 };
 
-export default function Button({ children, icon, addcart }: ButtonProps) {
+export default function Button({ children, icon, addcart, ...props }: ButtonProps) {
   const buttonIcon = icon ? BUTTON_ICONS[icon] : undefined;
 
   return (
-    <S.Button addcart={addcart}>
+    <S.Button addcart={addcart} {...props}>
       {buttonIcon}
       {children}
     </S.Button>

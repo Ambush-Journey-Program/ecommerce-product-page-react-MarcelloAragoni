@@ -11,8 +11,7 @@ type ButtonProps = {
   children?: string;
   icon?: string;
   addcart?: string;
-  props?: JSX.IntrinsicElements['button'];
-};
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const BUTTON_ICONS: any = {
   plus: <PlusIcon />,

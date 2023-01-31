@@ -4,13 +4,13 @@ const addCartButton = css`
   padding: 0;
   padding-left: 30px;
   padding-right: 35px;
-  color: #ffe3bb;
+  color: #ffffff;
   background-color: #ec823e;
 
   svg {
     margin-right: 1rem;
     path {
-      fill: #ffe3bb;
+      fill: #ffffff;
     }
   }
 `;

@@ -6,7 +6,7 @@ type PriceProps = {
 };
 
 export default function PriceTag({ originalPrice, discount }: PriceProps) {
-  const price = ((originalPrice * discount) / 100).toFixed(2);
+  const price = (originalPrice - (originalPrice * discount) / 100).toFixed(2);
 
   return (
     <S.PriceBox>

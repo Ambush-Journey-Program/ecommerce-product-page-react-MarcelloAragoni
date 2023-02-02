@@ -2,13 +2,15 @@ import styled, { css } from 'styled-components';
 
 const OverlayOn = css`
   display: flex;
+  width: 100%;
+  height: 100%;
 `;
 
 export const GalleryOverlay = styled.div`
   display: none;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 445px;
+  height: 445px;
   background: rgba(0, 0, 0, 0.7);
   top: 0;
   left: 0;

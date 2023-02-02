@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const PriceBox = styled.div`
   font-weight: bold;
   margin-top: 60px;
+  margin-bottom: 32px;
 `;
 
 export const Price = styled.p`

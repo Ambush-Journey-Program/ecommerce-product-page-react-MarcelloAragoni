@@ -6,6 +6,8 @@ export const NavBar = styled.div`
   width: 69.375rem;
   height: 3.125rem;
   margin: 0 auto;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 45px;
 `;
 
 export const Logo = styled.img`
@@ -19,6 +21,8 @@ export const Links = styled.ul`
   flex: 5;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-left: 56.5px;
 
   * + * {
     margin-left: 2rem;

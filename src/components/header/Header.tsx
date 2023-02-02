@@ -25,6 +25,7 @@ export default function Header() {
         <S.CartIcon src={CartIcon} alt="cart Icon" />
         <S.Avatar src={UserAvatar} alt="User Avatar" />
       </S.UserInfo>
+      <span></span>
     </S.NavBar>
   );
 }
